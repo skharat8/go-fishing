@@ -1,0 +1,33 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+@import "theme.css";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--primary);
+  background-color: var(--background);
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  width: min(60rem, 80%);
+  min-height: 40rem;
+  background: url("/src/assets/images/ocean.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
